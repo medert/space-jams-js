@@ -20,5 +20,5 @@ TRACKS.forEach((track) => {
 
 // print out the summary for each album
 albums.forEach((album) => {
-  console.log(album.summary());
+  album.summary();
 });
